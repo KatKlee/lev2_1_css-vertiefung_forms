@@ -1,0 +1,51 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(232, 232, 232);
+    font-family: sans-serif;
+}
+
+/* Header Contact Us */
+h1 {
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background-color:chocolate;
+    padding: 20px;
+}
+
+/* Forms Block */
+.contactUs {
+    width: 50%;
+    margin: 20px auto;
+}
+
+/* Input Boxes */
+#fullname, #email, #message {
+    display: block;
+    width: 100%;
+    padding: 15px 10px;
+    margin: 20px auto;
+    font-family: sans-serif;
+}
+
+/* Send Button */
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 15px 10px;
+    border-style: none;
+    background-color: chocolate;
+    color: white;
+}
+
+/* Hover Send Button */
+input[type="submit"]:hover {
+    background-color: rgb(198, 88, 10);
+}
